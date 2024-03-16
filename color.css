@@ -1,0 +1,45 @@
+body {
+    background-color: #706969; /* Light grey background color */
+}
+
+.grid1-container {
+    display: grid;
+    grid-template-columns: ; /* 4 columns for grid layout */
+    grid-template-rows:auto; /* Auto row height */
+    gap: 70px; /* Gap between grid items */
+    padding: 25px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* 4 columns for grid layout */
+    grid-template-rows:unset; /* Auto row height */
+    gap: 10px; /* Gap between grid items */
+    padding: 25px;
+}
+
+.grid-item {
+    background-color: #b1a3a3; /* Grey color for grid items */
+    border: 2px solid #666666; /* Dark grey border */
+    border-radius: 50px; /* Border radius for rounded corners */
+    padding: 60px; /* Padding for grid items */
+    gap;50px;
+    text-align: center;
+    font-size: 16px; /* Font size for grid items */}
+
+.grid-item1 {
+        background-color: #b1a3a3; /* Grey color for grid items */
+        border: 2px solid #666666; /* Dark grey border */
+        border-radius: 10px; /* Border radius for rounded corners */
+         /* Padding for grid items */
+        
+        
+        height: 100px;
+}
+
+.big-box {
+    grid-column: span 3; /* Span 2 columns for big box */
+    grid-row: span 3; /* Span 2 rows for big box */
+    font-size: 20px; /* Larger font size for big box */
+}
